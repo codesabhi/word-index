@@ -1,0 +1,41 @@
+.title{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 20px; */
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+
+@media(max-width: 900px){
+    .Header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .title{
+        font-size: 11vw;
+        /* margin-top: 25px; */
+    }
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search{
+    width: 43%;
+    
+}
+.select{
+    width: 43%;
+
+}
