@@ -56,7 +56,7 @@ const App = () => {
     >
       <Container maxWidth="md" className="container">
         <div
-          style={{ position: "absolute", top: 0, right: 15, paddingTop: 10 }}
+          style={{ position: "absolute", top: 0, right: 5, paddingTop: 5 }}
         >
           <DarkMode
             checked={lightMode}
